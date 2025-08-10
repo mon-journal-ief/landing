@@ -10,7 +10,7 @@
 
       <!-- Text side -->
       <div class="flex flex-col gap-8">
-        <h2 class="text-3xl md:text-4xl font-semibold text-theme-surface-200">
+        <h2 class="text-theme-surface-200">
           À propos
         </h2>
 

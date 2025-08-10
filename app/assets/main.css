@@ -29,3 +29,6 @@
   @apply transition-transform duration-200 group-hover:translate-x-1;
 }
 
+h2 {
+  @apply text-3xl md:text-4xl font-semibold;
+}

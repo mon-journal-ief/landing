@@ -12,16 +12,16 @@ const features = [
   },
   {
     icon: 'i-basil-book-check-outline',
-    title: 'Sérénité',
-    description: 'Générez un dossier net, structuré, et personnalisable en un clic.',
+    title: 'Flexibilité',
+    description: 'Générez un dossier structuré et personnalisable en un clic, au format PDF ou Word.',
   },
 ]
 </script>
 
 <template>
-  <section id="features" class="pb-12 max-w-7xl px-6 mx-auto grid md:grid-cols-3 gap-6">
+  <section id="features" class="pb-12  max-w-7xl px-6 mx-auto grid md:grid-cols-3 gap-6">
     <div v-for="feature in features" :key="feature.title" class="flex flex-col max-w-sm">
-      <div class="text-primary-500 flex items-center self-center justify-center rounded-full bg-theme-surface-100 size-16">
+      <div class="text-theme-surface-600 flex items-center self-center justify-center rounded-full bg-theme-surface-100 size-16">
         <i :class="feature.icon" class="text-4xl" />
       </div>
       <h3 class="mt-3 font-semibold text-center text-theme-surface-800 text-2xl">

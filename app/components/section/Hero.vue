@@ -7,7 +7,7 @@
     <div class="px-6 py-10 md:py-14 grid md:grid-cols-2 gap-12">
       <!-- Left side text -->
       <div class="flex flex-col gap-4 self-center">
-        <h1 class="text-3xl md:text-5xl text-theme-surface-800 font-semibold">
+        <h1 class="text-3xl md:text-5xl font-semibold">
           Simplifiez votre suivi IEF
         </h1>
 
