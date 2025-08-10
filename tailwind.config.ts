@@ -20,7 +20,7 @@ export default <Partial<Config>>{
   darkMode: 'class',
   plugins: [
     iconsPlugin({
-      collections: getIconCollections(['ci']),
+      collections: getIconCollections(['basil']),
     }),
   ],
 }

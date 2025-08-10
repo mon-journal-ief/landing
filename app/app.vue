@@ -4,7 +4,7 @@
 <template>
   <div
     class="
-    bg-theme-surface-200 text-theme-surface-900
+    bg-theme-surface-200 text-theme-surface-800
     p-4 lg:p-6 flex flex-col gap-4
     "
   >

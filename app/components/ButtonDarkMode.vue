@@ -2,8 +2,8 @@
 const colorMode = useColorMode()
 
 const themeIcons = {
-  light: 'i-ci-sun',
-  dark: 'i-ci-moon',
+  light: 'i-basil-sun-outline',
+  dark: 'i-basil-moon-outline',
 }
 
 const iconClass = computed(() => {
