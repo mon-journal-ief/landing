@@ -15,6 +15,10 @@
 
     <SectionFeatures />
 
+    <CardContrast>
+      <SectionAbout />
+    </CardContrast>
+
     <CardGradient>
       <SectionCTA />
     </CardGradient>
