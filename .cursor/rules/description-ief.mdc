@@ -1,0 +1,4 @@
+---
+description: Je construis un SaaS d'aide à l'Instruction en Famille. L'utilisateur visé est le parent (typiquement la mère) s'occupant de l'instruction du ou des enfants. Le pain-point visé est la lourdeur administrative du suivi, ainsi que l'anxiété causé par l'incertitude du format du journal de suivi. Le produit en lui même est une webapp / PWA qui permet de créer un journal de suivi. L'utilisateur ajoute ses enfants, puis les lie à un programme préfait (selon les différents niveaux scolaire et le programme officiel associé). Il peut ensuite s'il le souhaite modifier ce programme. Au jour le jour, il ajoute des entrées de journal, qu'il peut lier à un élément de programme. Il pourra ajouter des photos/description. Quand viendra le moment de l'inspection, ou avant, l'utilisateur pourra exporter le journal en PDF ou en format Word.
+alwaysApply: false
+---
