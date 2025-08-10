@@ -1,0 +1,15 @@
+# VCS and caches
+.git
+node_modules
+.output
+.nuxt
+.cache
+dist
+.vscode
+.idea
+.DS_Store
+coverage
+
+# Keep only base .env (used at build time) and ignore others
+# .env is intentionally NOT ignored so Nuxt can read it during generate
+.env.*
