@@ -13,7 +13,7 @@ export default <Partial<Config>>{
     extend: {
       colors: palette,
       fontFamily: {
-        sans: ['Urbanist', ...defaultTheme.fontFamily.sans],
+        sans: ['Fredoka', ...defaultTheme.fontFamily.sans],
       },
     },
   },
@@ -22,12 +22,5 @@ export default <Partial<Config>>{
     iconsPlugin({
       collections: getIconCollections(['ci']),
     }),
-  ],
-  // Be careful using this option, it can lead to a lot of unused CSS being generated
-  safelist: [
-    {
-      // line-clamp class used in ReadMore.vue is generated dynamically
-      pattern: /^line-clamp-(\d+)$/,
-    },
   ],
 }

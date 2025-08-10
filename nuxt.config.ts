@@ -7,8 +7,8 @@ export default defineNuxtConfig({
     '@nuxt/eslint',
     '@nuxtjs/color-mode',
     '@vueuse/nuxt',
+    '@nuxt/fonts',
   ],
-
 
   runtimeConfig: {
     public: {
@@ -17,11 +17,18 @@ export default defineNuxtConfig({
     },
   },
 
-
   eslint: {
     config: {
       stylistic: true,
     },
+  },
+
+  fonts: {
+    families: [{
+      name: 'Fredoka',
+      weights: [400, 500, 600, 700, 800, 900],
+      provider: 'google',
+    }],
   },
 
   tailwindcss: {
