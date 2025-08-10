@@ -1,4 +1,28 @@
 buildImage = 'ghcr.io/railwayapp/nixpacks:latest'
 
+# nixpacks.toml
+[variables]
+NODE_ENV = "production"
+NPM_CONFIG_PRODUCTION = "false"
+NIXPACKS_NODE_VERSION = "23"
+
 [phases.setup]
-  nixpkgsArchive = '11cb3517b3af6af300dd6c055aeda73c9bf52c48'
+nixpkgsArchive = '11cb3517b3af6af300dd6c055aeda73c9bf52c48'
+# Only what you actually need for Nuxt SSG
+nixPkgs = [
+  "nodejs_23",
+  "pnpm-9_x"
+]
+# Important: disable apt packages to skip the failing sudo apt-get step
+aptPkgs = []
+
+[phases.install]
+cmds = [
+  "npm install -g corepack@0.24.1 && corepack enable",
+  "pnpm install --frozen-lockfile"
+]
+paths = [ "/app/node_modules/.bin" ]
+
+[phases.build]
+cmds = [ "pnpm run build" ]
+cacheDirectories = [ "node_modules/.cache" ]
