@@ -8,8 +8,11 @@ const urlApp = 'mon-journal-ief.com'
 <template>
   <a
     :href="`https://app.${urlApp}`"
-    class="px-4 py-2 w-fit rounded-2xl bg-primary-500 text-theme-surface-50 hover:bg-primary-600 transition"
-  >
+     class="
+      px-4 pb-2 pt-1.5 w-fit rounded-2xl
+      bg-green-500 text-theme-surface-50 hover:bg-green-600
+      transition"
+      >
     Essayez gratuitement
   </a>
 </template>

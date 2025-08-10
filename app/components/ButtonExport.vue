@@ -8,7 +8,7 @@ const urlApp = computed(() => config.public.URL_APP)
   <a
     :href="`https://app.${urlApp}`"
     class="
-    px-4 py-2 w-fit rounded-2xl
+    px-4 py-1.5 w-fit rounded-2xl
     border border-theme-surface-300
     text-theme-surface-500 hover:bg-theme-surface-100
     transition
