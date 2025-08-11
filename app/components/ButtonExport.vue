@@ -6,11 +6,13 @@ withDefaults(defineProps<{
   text: 'Voir un exemple d\'export',
   contrast: false,
 })
+
+const baseUrl = 'https://www.mon-journal-ief.com'
 </script>
 
 <template>
   <a
-    href="`https://www.mon-journal-ief.com/yolo.pdf`"
+    :href="`${baseUrl}/yolo.pdf`"
     :class="contrast ? 'button-outline-contrast' : 'button-outline'"
   >
     Voir un exemple d'export
