@@ -20,6 +20,7 @@
     </CardContrast>
 
     <CardGradient>
+      <SectionHowItWorks />
       <SectionPricing />
       <SectionFAQ />
     </CardGradient>
