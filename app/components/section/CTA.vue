@@ -3,15 +3,15 @@
 </script>
 
 <template>
-  <section id="cta" class="py-20">
+  <section id="cta" class="py-10">
     <div class="mx-auto max-w-3xl px-6 text-center">
-      <h2>Commencez aujourd’hui, soyez prêt demain</h2>
-      <p class="mt-3 text-theme-surface-600">
-        2 mois d'essai gratuit, pas de carte bancaire requise.
+      <h2 class="text-theme-surface-200">Gratuit jusqu'en Novembre</h2>
+      <p class="mt-2 text-theme-surface-300">
+        Profitez d'un essai gratuit, sans carte bancaire requise.
       </p>
       <div class="mt-8 flex justify-center gap-4">
         <ButtonCTA />
-        <ButtonExport />
+        <ButtonExport contrast />
       </div>
     </div>
   </section>
