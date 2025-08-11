@@ -14,7 +14,7 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
         <!-- Accès solidaire -->
         <div class="p-2 rounded-2xl border border-theme-surface-200 bg-theme-surface-50 flex flex-col">
           <!-- Header -->
-          <div class="flex flex-col bg-theme-surface-100 rounded-xl p-4">
+          <div class="flex flex-col bg-theme-surface-100 rounded-xl py-4 px-6">
             <div class="text-theme-surface-700 text-xl font-medium">
               Accès solidaire
             </div>
@@ -51,14 +51,14 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
         </div>
 
         <!-- Abonnement de soutien -->
-        <div class="p-2 rounded-2xl border border-green-300 bg-green-50 flex flex-col">
+        <div class="p-2 rounded-2xl border-2 border-green-300 bg-green-50/70 flex flex-col">
           <!-- Header -->
-          <div class="flex flex-col bg-green-900/10 rounded-xl p-4">
+          <div class="flex flex-col bg-green-900/10 rounded-xl py-4 px-6">
             <div class="text-green-700 text-xl font-medium">
               Abonnement
             </div>
             <p class="text-green-700/80">
-              Si vous le pouvez, vous financez l'accès d'autres familles
+              Le prix juste pour un service durable.
             </p>
 
             <div class="flex items-baseline gap-2">
