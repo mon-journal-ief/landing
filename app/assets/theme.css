@@ -86,7 +86,7 @@
   }
   .bg-theme-primary-50 {
     @apply bg-primary-50 dark:bg-primary-900;
-  } 
+  }
   .bg-theme-primary-100 {
     @apply bg-primary-100 dark:bg-primary-900;
   }

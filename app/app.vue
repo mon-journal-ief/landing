@@ -27,6 +27,8 @@
     <CardContrast>
       <SectionCTA />
     </CardContrast>
+
+    <!-- <SectionPrivacy /> -->
     <TheFooter />
   </div>
 </template>
