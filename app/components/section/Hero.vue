@@ -4,7 +4,7 @@
 
 <template>
   <section>
-    <div class="px-6 py-10 md:py-14 grid md:grid-cols-2 gap-12">
+    <div class="px-6 pt-24 pb-10 md:pt-28 md:pb-14 grid md:grid-cols-2 gap-12">
       <!-- Left side text -->
       <div class="flex flex-col gap-4 self-center">
         <h1 class="text-3xl md:text-5xl font-semibold">
