@@ -1,7 +1,10 @@
 <script setup lang="ts">
-// const config = useRuntimeConfig()
+withDefaults(defineProps<{
+  text?: string
+}>(), {
+  text: 'Essayez gratuitement',
+})
 
-// const urlApp = computed(() => config.public.URL_APP)
 const urlApp = 'mon-journal-ief.com'
 </script>
 
@@ -10,6 +13,6 @@ const urlApp = 'mon-journal-ief.com'
     :href="`https://app.${urlApp}`"
     class="button-primary"
   >
-    Essayez gratuitement
+    {{ text }}
   </a>
 </template>

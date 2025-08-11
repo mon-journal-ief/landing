@@ -1,13 +1,17 @@
 <script setup lang="ts">
-const config = useRuntimeConfig()
-
-const urlApp = computed(() => config.public.URL_APP)
+withDefaults(defineProps<{
+  text?: string
+  contrast?: boolean
+}>(), {
+  text: 'Voir un exemple d\'export',
+  contrast: false,
+})
 </script>
 
 <template>
   <a
-    :href="`https://app.${urlApp}`"
-    class="button-outline"
+    href="`https://www.mon-journal-ief.com/yolo.pdf`"
+    :class="contrast ? 'button-outline-contrast' : 'button-outline'"
   >
     Voir un exemple d'export
   </a>
