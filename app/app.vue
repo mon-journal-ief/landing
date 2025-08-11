@@ -16,7 +16,7 @@
     <SectionFeatures />
 
     <CardContrast>
-      <SectionAbout />
+      <SectionCTA />
     </CardContrast>
 
     <CardGradient>
@@ -26,7 +26,7 @@
     </CardGradient>
 
     <CardContrast>
-      <SectionCTA />
+      <SectionAbout />
     </CardContrast>
 
     <!-- <SectionPrivacy /> -->
