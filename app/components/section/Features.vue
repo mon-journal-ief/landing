@@ -8,12 +8,13 @@ const features = [
   {
     icon: 'i-basil-lightbulb-outline',
     title: 'Clarté',
-    description: 'Un journal organisé par objectifs et compétences selon le programme officiel.',
+    description: `Un suivi au jour le jour, qui tient compte du programme officiel.
+    Plus besoin d'archiver vos photos et vos mémos, en attendant de rédiger votre journal.`,
   },
   {
     icon: 'i-basil-book-check-outline',
     title: 'Flexibilité',
-    description: 'Générez un dossier structuré et personnalisable en un clic, au format PDF ou Word.',
+    description: 'A tout moment, générez un dossier personnalisable et structuré en un clic, au format PDF ou Word.',
   },
 ]
 </script>
