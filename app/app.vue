@@ -29,7 +29,9 @@
       <SectionAbout />
     </CardContrast>
 
-    <!-- <SectionPrivacy /> -->
+    <CardContrast>
+      <SectionPrivacy />
+    </CardContrast>
     <TheFooter />
   </div>
 </template>
