@@ -13,10 +13,10 @@
 
         <ul class="text-theme-surface-300 list-disc list-inside space-y-2">
           <li>Hébergement en France (prestataire conforme RGPD) ; les données ne quittent pas le territoire</li>
-          <li>Suppression de tout ou partie des données à tout moment depuis votre compte</li>
-          <li>Utilisation sans données sensibles : alias ou prénoms abrégés possibles ; saisie hors ligne via l'export Word</li>
-          <li>Aucune publicité, aucun tracker tiers ; mesures d'audience respectueuses, sans profilage</li>
-          <li>Sécurité par défaut : chiffrement en transit et au repos, mots de passe hachés, minimisation des données, contrôles d'accès stricts</li>
+          <li>Suppression de tout ou partie des données (liées à un enfant) à tout moment depuis votre compte</li>
+          <li>Utilisation possible sans données personnelles : vous pouvez utiliser l'app sans entrer de données personnelles, et corriger sur votre ordinateur l'export Word</li>
+          <li>Aucune publicité, aucun tracker tiers ; mesures d'audience respectueuses, sans profilage, via Umami</li>
+          <li>Haute Sécurité : Respect de toutes les bonnes pratiques, application sous scanner de vulnérabilités</li>
         </ul>
       </div>
     </div>
