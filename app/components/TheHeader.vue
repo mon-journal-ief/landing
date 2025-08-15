@@ -7,12 +7,12 @@ const isScrolled = computed(() => y.value > 0)
 
 <template>
   <header
-    :class="isScrolled ? 'backdrop-blur' : 'pt-4'"
-    class="max-w-7xl m-auto fixed top-0 left-0 right-0 z-50 transition-all duration-300"
+    :class="!isScrolled && 'pt-4'"
+    class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
   >
     <div
-      class="mx-auto px-6 flex items-center gap-6 transition-all duration-300"
-      :class="isScrolled ? 'py-2' : 'py-5'"
+      class="mx-auto max-w-7xl px-6 flex items-center gap-6 transition-all duration-300"
+      :class="isScrolled ? 'py-2 backdrop-blur' : 'py-5'"
     >
       <img
         src="/logo_gruvbox_sm.png"
