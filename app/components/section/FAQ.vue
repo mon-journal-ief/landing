@@ -28,7 +28,7 @@ function toggleFAQ(index: number) {
 </script>
 
 <template>
-  <section id="faq" class="mt-12 w-full">
+  <section id="faq" class="w-full">
     <div class="flex flex-col items-center justify-center max-w-4xl mx-auto">
       <div class="text-center px-4">
         <h2 class="text-3xl sm:text-4xl text-theme-surface-800">

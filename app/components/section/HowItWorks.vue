@@ -26,7 +26,7 @@ const steps = [
 </script>
 
 <template>
-  <section id="how" class="py-14">
+  <section id="how">
     <!-- Header -->
     <div class="mx-auto max-w-5xl px-6 text-center">
       <h2>
