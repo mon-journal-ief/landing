@@ -1,6 +1,6 @@
 <template>
   <section id="about" class="px-6 py-4">
-    <div class="mx-auto max-w-7xl grid md:grid-cols-2 gap-10 items-center">
+    <div class="mx-auto grid md:grid-cols-2 gap-10 items-center">
       <!-- Image side -->
       <img
         class="mx-auto aspect-[3/2] w-full rounded-3xl border-2 border-theme-surface-400"

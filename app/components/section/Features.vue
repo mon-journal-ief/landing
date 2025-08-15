@@ -20,7 +20,7 @@ const features = [
 </script>
 
 <template>
-  <section id="features" class="pb-12  max-w-7xl px-6 mx-auto grid md:grid-cols-3 gap-6">
+  <section id="features" class="pb-12 px-6 grid md:grid-cols-3 gap-6">
     <div v-for="feature in features" :key="feature.title" class="flex flex-col max-w-sm">
       <div class="text-theme-surface-600 flex items-center self-center justify-center rounded-full bg-theme-surface-100 size-16">
         <i :class="feature.icon" class="text-4xl" />

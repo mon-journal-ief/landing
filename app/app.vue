@@ -3,36 +3,38 @@
 
 <template>
   <div
-    class="
-    bg-theme-surface-200 text-theme-surface-800
-    p-4 lg:p-6 flex flex-col gap-16
-    "
+    class="bg-theme-surface-200 text-theme-surface-800 p-4 lg:p-6"
   >
-    <CardGradient>
-      <TheHeader />
-      <SectionHero />
-    </CardGradient>
+    <div class="flex flex-col gap-16 max-w-7xl w-full mx-auto">
+      <CardGradient>
+        <TheHeader />
+        <SectionHero />
+      </CardGradient>
 
-    <SectionFeatures />
+      <SectionFeatures />
+      
+      <!-- <CardContrast>
+        <SectionCTA />
+      </CardContrast> -->
 
-    <CardContrast>
-      <SectionCTA />
-    </CardContrast>
+      <CardGradient>
+        <SectionHowItWorks />
+        <SectionPricing />
+      </CardGradient>
 
-    <CardGradient>
-      <SectionHowItWorks />
-      <SectionPricing />
-      <SectionFAQ />
-    </CardGradient>
+      <CardGradient>
+        <SectionFAQ />
+      </CardGradient>
 
-    <CardContrast>
-      <SectionAbout />
-    </CardContrast>
+      <CardContrast>
+        <SectionAbout />
+      </CardContrast>
 
-    <CardContrast>
-      <SectionPrivacy />
-    </CardContrast>
-    <TheFooter />
+      <CardContrast>
+        <SectionPrivacy />
+      </CardContrast>
+      <TheFooter />
+    </div>
   </div>
 </template>
 

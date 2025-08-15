@@ -5,7 +5,7 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
 
 <template>
   <section id="pricing" class="pt-8">
-    <div class="mx-auto max-w-7xl px-6">
+    <div class="px-6">
       <div class="flex flex-col gap-3 items-center text-center">
         <h2> Tarifs </h2>
       </div>

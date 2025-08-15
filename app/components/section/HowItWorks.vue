@@ -38,7 +38,7 @@ const steps = [
     </div>
 
     <!-- Steps -->
-    <div class="mx-auto mt-12 max-w-7xl px-6 grid md:grid-cols-3 gap-10">
+    <div class="mx-auto mt-12 px-6 grid md:grid-cols-3 gap-10">
       <div
         v-for="step in steps"
         :key="step.heading"
