@@ -43,9 +43,10 @@ function toggleFAQ(index: number) {
       <div class="mt-8 w-full overflow-hidden rounded-2xl">
         <div class="divide-y divide-theme-surface-200">
           <!-- FAQ Item -->
-          <div v-for="(faq, index) in faqs" :key="index" class="w-full">
+          <div v-for="(faq, index) in faqs" :key="index" class="w-full group">
             <button
-              class="w-full p-5 text-left flex items-center justify-between hover:bg-theme-surface-100 transition-colors duration-200"
+              class="w-full p-5 text-left flex items-center justify-between
+              transition-colors duration-200 hover:bg-theme-surface-100 group-hover:bg-theme-surface-100"
               :aria-expanded="openItems.has(index)"
               @click="toggleFAQ(index)"
             >
@@ -68,7 +69,7 @@ function toggleFAQ(index: number) {
 
             <!-- Answer -->
             <div
-              class="overflow-hidden transition-all duration-200 ease-in-out"
+              class="overflow-hidden transition-all duration-200 ease-in-out group-hover:bg-theme-surface-100"
               :class="openItems.has(index) ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'"
             >
               <div class="px-5 pb-5">
