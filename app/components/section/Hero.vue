@@ -15,7 +15,7 @@
         </h1>
 
         <p class="text-theme-surface-700 md:text-lg">
-          Gagnez du temps grâce à un suivi clair, structuré selon les programmes officiels, sans stress ni paperasse.
+          Gagnez du temps grâce à un suivi rapide, sans stress ni paperasse, structuré selon les programmes officiels.
         </p>
 
         <p class="text-theme-surface-700 md:text-lg">

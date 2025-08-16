@@ -2,12 +2,12 @@
 const features = [
   {
     icon: 'i-basil-clock-outline',
-    title: 'Gain de temps',
+    title: 'Plus de temps',
     description: 'Votre suivi quotidien en quelques minutes, depuis votre téléphone ou votre ordinateur.',
   },
   {
-    icon: 'i-basil-lightbulb-outline',
-    title: 'Clarté',
+    icon: 'i-basil-battery-full-outline',
+    title: 'Moins de charge mentale',
     description: `Un suivi au jour le jour, qui tient compte du programme officiel.
     Plus besoin d'archiver vos photos et vos mémos, en attendant de rédiger votre journal.`,
   },
