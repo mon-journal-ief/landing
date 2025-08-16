@@ -28,7 +28,7 @@ useHead({
         <SectionPricing />
       </CardGradient>
 
-      <CardGradient>
+      <CardGradient reverse>
         <SectionFAQ />
       </CardGradient>
 
