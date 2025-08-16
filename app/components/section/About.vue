@@ -16,7 +16,7 @@
 
         <p class="text-theme-surface-300">
           Je m'appelle Guillaume Bonnefoy, et suis développeur dans le milieu de la cybersécurité. <br><br>
-          Jeune papa, j’ai découvert l’Instruction en Famille et, avec elle, ses lourdeurs administratives et
+          Jeune papa, j’ai découvert l’instruction en famille et, avec elle, ses lourdeurs administratives et
           son lot d'anxiétés : refus de dossier, attendus incertains, etc. <br><br>
           Après avoir parlé à d'autres familles en IEF, j’ai conçu cet outil comme une réponse :
           nous faire gagner du temps, alléger la charge mentale et préparer sereinement l’inspection. <br>
