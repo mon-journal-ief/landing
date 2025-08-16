@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const urlSolidarity = 'https://app.mon-journal-ief.com/signup?plan=solidarity'
 const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
+
+const billingCycle = ref<'month' | 'year'>('year')
+const urlSupportWithBilling = computed(() => `${urlSupport}&billing=${billingCycle.value}`)
 </script>
 
 <template>
@@ -8,6 +11,26 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
     <div class="px-6">
       <div class="flex flex-col gap-3 items-center text-center">
         <h2> Tarifs </h2>
+
+        <!-- Bascule mensuel / annuel -->
+        <div class="mt-2 flex justify-center">
+          <div class="inline-flex p-1 rounded-full border border-theme-surface-200 bg-theme-surface-50">
+            <button
+              class="px-3 py-1 rounded-full text-sm font-medium transition-colors"
+              :class="billingCycle === 'month' ? 'bg-green-500 text-white' : 'text-theme-surface-700'"
+              @click="billingCycle = 'month'"
+            >
+              Mensuel
+            </button>
+            <button
+              class="px-3 py-1 rounded-full text-sm font-medium transition-colors"
+              :class="billingCycle === 'year' ? 'bg-green-500 text-white' : 'text-theme-surface-700'"
+              @click="billingCycle = 'year'"
+            >
+              Annuel
+            </button>
+          </div>
+        </div>
       </div>
 
       <div class="mt-10 grid md:grid-cols-2 gap-6 items-stretch">
@@ -58,12 +81,15 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
               Abonnement standard
             </div>
             <p class="text-green-700/80">
-              Couvre l'année scolaire entière.
+              Couvre l'année scolaire.
             </p>
 
             <div class="flex items-baseline gap-2">
-              <span class="text-4xl font-bold text-green-800">50€</span>
-              <span class="text-green-700">/ an</span>
+              <div class="flex items-baseline gap-2">
+                <span v-if="billingCycle === 'year'" class="text-2xl text-green-600/70 line-through font-medium">96€</span>
+                <span class="text-4xl font-bold text-green-800">{{ billingCycle === 'month' ? 12 : 60 }}€</span>
+              </div>
+              <span class="text-green-700">{{ billingCycle === 'month' ? '/ mois' : '/ an' }}</span>
             </div>
           </div>
 
@@ -85,22 +111,13 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
               <i class="bullet-icon text-green-600" />
               <span>Support prioritaire</span>
             </li>
-            <li class="flex items-start gap-2">
-              <i class="bullet-icon text-green-600" />
-              <span>Vous aidez d'autres familles en IEF</span>
-            </li>
           </ul>
 
           <!-- Bouton -->
-          <a :href="urlSupport" class="button-primary m-4">
-            J'essaie gratuitement
+          <a :href="urlSupportWithBilling" class="button-primary m-4">
+            J'essaie gratuitement un mois
           </a>
         </div>
-      </div>
-
-      <!-- Bandeau d'explication -->
-      <div class="mt-8 rounded-xl border border-theme-surface-200 bg-theme-surface-50 p-4 text-center text-theme-surface-700">
-        Nous fonctionnons sur l'honneur. Choisissez l'option qui correspond à votre situation aujourd'hui, vous pourrez changer plus tard.
       </div>
     </div>
   </section>
