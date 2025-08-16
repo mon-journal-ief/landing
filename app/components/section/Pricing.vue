@@ -55,10 +55,10 @@ const urlSupport = 'https://app.mon-journal-ief.com/signup?plan=support'
           <!-- Header -->
           <div class="flex flex-col bg-green-900/10 rounded-xl py-4 px-6">
             <div class="text-green-700 text-xl font-medium">
-              Abonnement
+              Abonnement standard
             </div>
             <p class="text-green-700/80">
-              Le prix juste pour un service durable.
+              Couvre l'année scolaire entière.
             </p>
 
             <div class="flex items-baseline gap-2">

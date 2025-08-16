@@ -16,9 +16,9 @@ const steps = [
   },
   {
     num: '3.',
-    heading: 'Exportez sereinement',
+    heading: `Exportez d'un clic`,
     description:
-      `D'un clic, générez un dossier exhaustif et structuré, avec table des matières.
+      `Générez un dossier exhaustif et structuré, avec table des matières.
       Pour une mise en page efficace et rapide, exportez en PDF.
       Pour un contrôle total, exportez en Word.`,
   },
