@@ -1,4 +1,10 @@
 <script setup lang="ts">
+useHead({
+  title: 'Mon journal IEF',
+  meta: [{ name: 'description', content: 'Mon journal IEF' }],
+  // https://favicon.im/blog/add-favicon-to-nuxt3-project 
+  link: [{ rel: 'icon', type: 'image/png', href: '/logo_gruvbox_sm.png' }],
+})
 </script>
 
 <template>
