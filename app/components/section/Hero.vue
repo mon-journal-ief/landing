@@ -4,9 +4,12 @@
 
 <template>
   <section>
-    <div class="px-6 pt-24 pb-10 md:pt-28 md:pb-14 grid md:grid-cols-2 gap-12">
-      <!-- Left side text -->
-      <div class="flex flex-col gap-4 self-center">
+    <div class="px-6 pt-8 pb-10 md:pt-28 md:pb-14 grid md:grid-cols-2 gap-12">
+      <!-- Image - appears first on mobile, second on desktop -->
+      <img src="/hero_gruvbox.png" alt="Mon Journal IEF" class="rounded-2xl shadow-inner-glow md:order-2">
+
+      <!-- Text content - appears second on mobile, first on desktop -->
+      <div class="flex flex-col gap-4 self-center md:order-1">
         <h1 class="text-3xl md:text-5xl font-semibold">
           Simplifiez votre suivi IEF
         </h1>
@@ -22,10 +25,6 @@
         <ButtonCTA class="mt-4" />
         <ButtonExport />
       </div>
-
-      <!-- Right side image -->
-      <img src="/hero_gruvbox.png" alt="Mon Journal IEF" class="rounded-2xl shadow-inner-glow">
-      <!-- <img src="/hero.png" alt="Mon Journal IEF" class="rounded-2xl shadow-inner-glow"> -->
     </div>
   </section>
 </template>

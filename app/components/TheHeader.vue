@@ -11,7 +11,7 @@ const isScrolled = computed(() => y.value > 0)
     class="fixed top-0 left-0 right-0 z-50 transition-all duration-300"
   >
     <div
-      class="mx-auto max-w-7xl px-6 flex items-center gap-6 transition-all duration-300"
+      class="mx-auto max-w-7xl px-10 xl:px-6 flex items-center gap-6 transition-all duration-300"
       :class="isScrolled ? 'py-2 backdrop-blur' : 'py-5'"
     >
       <img
@@ -21,7 +21,7 @@ const isScrolled = computed(() => y.value > 0)
         :class="isScrolled ? 'h-10' : 'h-12'"
       >
 
-      <nav class="hidden md:flex items-center gap-6 text-theme-surface-700">
+      <nav class="hidden md:flex items-center gap-6 text-theme-surface-700 font-medium text-lg">
         <a href="#comment-ca-marche" class="hover:text-theme-surface-500 transition-colors duration-300">Comment ça marche</a>
         <a href="#tarifs" class="hover:text-theme-surface-500 transition-colors duration-300">Tarifs</a>
         <a href="#faq" class="hover:text-theme-surface-500 transition-colors duration-300">FAQ</a>
