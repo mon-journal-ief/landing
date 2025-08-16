@@ -1,5 +1,5 @@
 <template>
-  <section id="about" class="px-6 py-4">
+  <section id="a-propos" class="px-6 py-4">
     <div class="mx-auto grid md:grid-cols-2 gap-10 items-center">
       <!-- Image side -->
       <img

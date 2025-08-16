@@ -36,9 +36,9 @@ useHead({
         <SectionAbout />
       </CardContrast>
 
-      <CardContrast>
+      <!-- <CardContrast>
         <SectionPrivacy />
-      </CardContrast>
+      </CardContrast> -->
       <TheFooter />
     </div>
   </div>

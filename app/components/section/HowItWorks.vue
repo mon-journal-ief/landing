@@ -26,7 +26,7 @@ const steps = [
 </script>
 
 <template>
-  <section id="how">
+  <section id="comment-ca-marche">
     <!-- Header -->
     <div class="mx-auto max-w-5xl px-6 text-center">
       <h2>

@@ -21,6 +21,9 @@
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
+    /* Add scroll offset to account for fixed header */
+    scroll-padding-top: 80px;
   }
 }
 

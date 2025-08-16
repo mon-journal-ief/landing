@@ -7,7 +7,7 @@ const urlSupportWithBilling = computed(() => `${urlSupport}&billing=${billingCyc
 </script>
 
 <template>
-  <section id="pricing">
+  <section id="tarifs">
     <div class="px-6">
       <div class="flex flex-col gap-3 items-center text-center">
         <h2> Tarifs </h2>
