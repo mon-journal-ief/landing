@@ -1,19 +1,18 @@
 <script setup lang="ts">
 const features = [
   {
+    icon: 'i-basil-battery-full-outline',
+    title: 'Moins de charge mentale',
+    description: `Plus besoin d'archiver vos photos et vos mémos en attendant de rédiger votre journal.`,
+  },
+  {
     icon: 'i-basil-clock-outline',
     title: 'Plus de temps',
     description: 'Votre suivi quotidien en quelques minutes, depuis votre téléphone ou votre ordinateur.',
   },
   {
-    icon: 'i-basil-battery-full-outline',
-    title: 'Moins de charge mentale',
-    description: `Un suivi au jour le jour, qui tient compte du programme officiel.
-    Plus besoin d'archiver vos photos et vos mémos, en attendant de rédiger votre journal.`,
-  },
-  {
     icon: 'i-basil-book-check-outline',
-    title: 'Flexibilité',
+    title: 'Plus de flexibilité',
     description: 'A tout moment, générez un dossier personnalisable et structuré en un clic, au format PDF ou Word.',
   },
 ]
