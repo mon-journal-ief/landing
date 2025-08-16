@@ -35,7 +35,7 @@ const urlSupportWithBilling = computed(() => `${urlSupport}&billing=${billingCyc
 
       <div class="mt-10 grid md:grid-cols-2 gap-6 items-stretch">
         <!-- Accès solidaire -->
-        <div class="p-2 rounded-2xl border border-theme-surface-200 bg-theme-surface-50 flex flex-col">
+        <div class="order-2 md:order-1 p-2 rounded-2xl border border-theme-surface-200 bg-theme-surface-50 flex flex-col">
           <!-- Header -->
           <div class="flex flex-col bg-theme-surface-100 rounded-xl py-4 px-6">
             <div class="text-theme-surface-700 text-xl font-medium">
@@ -73,8 +73,8 @@ const urlSupportWithBilling = computed(() => `${urlSupport}&billing=${billingCyc
           </a>
         </div>
 
-        <!-- Abonnement de soutien -->
-        <div class="p-2 rounded-2xl border-2 border-green-300 bg-green-50/70 flex flex-col">
+        <!-- Abonnement normal -->
+        <div class="order-1 md:order-2 p-2 rounded-2xl border-2 border-green-300 bg-green-50/70 flex flex-col">
           <!-- Header -->
           <div class="flex flex-col bg-green-900/10 rounded-xl py-4 px-6">
             <div class="text-green-700 text-xl font-medium">
