@@ -115,7 +115,7 @@ const urlSupportWithBilling = computed(() => `${urlSupport}&billing=${billingCyc
 
           <!-- Bouton -->
           <a :href="urlSupportWithBilling" class="button-primary m-4">
-            J'essaie gratuitement un mois
+            J'essaie un mois d'essai gratuitement
           </a>
         </div>
       </div>
