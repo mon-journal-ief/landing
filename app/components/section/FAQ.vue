@@ -57,7 +57,7 @@ function toggleFAQ(index: number) {
         </h2>
         <p class="mt-2 text-theme-surface-500">
           Vous ne trouvez pas la réponse que vous cherchez ?
-          <a href="mailto:whiterqbbit@proton.me" class="underline hover:no-underline text-theme-surface-700">Contactez-moi</a>
+          <a href="mailto:guillaume@mon-journal-ief.com" class="underline hover:no-underline text-theme-surface-700">Contactez-moi</a>
         </p>
       </div>
 
