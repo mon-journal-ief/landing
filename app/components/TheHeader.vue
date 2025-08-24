@@ -15,9 +15,9 @@ const isScrolled = computed(() => y.value > 0)
       :class="isScrolled ? 'py-2 backdrop-blur' : 'py-5'"
     >
       <img
-        src="/logo_alt2.png"
+        src="/chasti_logo_md.png"
         alt="Mon Journal IEF"
-        class="transition-all duration-300 rounded-xl"
+        class="transition-all duration-300 rounded-xl p-0.5"
         :class="isScrolled ? 'h-10' : 'h-12'"
       >
 

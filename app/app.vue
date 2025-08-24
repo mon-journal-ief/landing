@@ -2,8 +2,8 @@
 useHead({
   title: 'Mon journal IEF',
   meta: [{ name: 'description', content: 'Mon journal IEF' }],
-  // https://favicon.im/blog/add-favicon-to-nuxt3-project 
-  link: [{ rel: 'icon', type: 'image/png', href: '/logo_alt2_sm.png' }],
+  // https://favicon.im/blog/add-favicon-to-nuxt3-project
+  link: [{ rel: 'icon', type: 'image/png', href: '/chasti_logo_xs.png' }],
 })
 </script>
 
@@ -18,7 +18,7 @@ useHead({
       </CardGradient>
 
       <SectionFeatures />
-      
+
       <!-- <CardContrast>
         <SectionCTA />
       </CardContrast> -->
