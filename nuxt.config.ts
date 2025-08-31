@@ -8,8 +8,9 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@vueuse/nuxt',
     '@nuxt/fonts',
+    'nuxt-umami',
   ],
-
+  // fe543b3c-d4d1-4293-bec4-c64dc01361e1
   runtimeConfig: {
     public: {
       ENVIRONNEMENT: '',
@@ -33,6 +34,13 @@ export default defineNuxtConfig({
 
   tailwindcss: {
     cssPath: '@/assets/main.css',
+  },
+
+  umami: {
+    id: 'fe543b3c-d4d1-4293-bec4-c64dc01361e1',
+    host: 'https://umami.mon-journal-ief.com/',
+    autoTrack: true,
+    ignoreLocalhost: true,
   },
 
   colorMode: {

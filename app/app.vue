@@ -5,6 +5,10 @@ useHead({
   // https://favicon.im/blog/add-favicon-to-nuxt3-project
   link: [{ rel: 'icon', type: 'image/png', href: '/chasti_logo_xs.png' }],
 })
+
+onMounted(() => {
+  umTrackView() // Umami: since we don't use NuxtPage, we need to track the view
+})
 </script>
 
 <template>
