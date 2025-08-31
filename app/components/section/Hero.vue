@@ -6,7 +6,7 @@
   <section>
     <div class="px-6 pt-8 pb-10 md:pt-28 md:pb-14 grid md:grid-cols-2 gap-12">
       <!-- Image - appears first on mobile, second on desktop -->
-      <img src="/hero_gruvbox.png" alt="Mon Journal IEF" class="rounded-2xl shadow-inner-glow md:order-2">
+      <img src="/ief_chasti.png" alt="Mon Journal IEF" class="rounded-2xl shadow-inner-glow md:order-2">
 
       <!-- Text content - appears second on mobile, first on desktop -->
       <div class="flex flex-col gap-4 self-center md:order-1">
