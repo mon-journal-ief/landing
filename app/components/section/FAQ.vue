@@ -2,7 +2,7 @@
 const openItems = ref(new Set<number>())
 
 const faqs = [
-  { Q: `Dois-je fournir un justificatif pour bénéficier de l'accès solidaire ?`, A: `Non. Nous fonctionnons sur l'honneur, sur simple déclaration.` },
+  // { Q: `Dois-je fournir un justificatif pour bénéficier de l'accès solidaire ?`, A: `Non. Nous fonctionnons sur l'honneur, sur simple déclaration.` },
   { Q: 'Puis-je suivre plusieurs enfants ?', A: 'Autant d’enfants que vous le souhaitez, sans augmentation de prix!' },
   // { Q: 'Est-ce conforme au cadre légal français ?', A: 'L’outil aide à documenter, mais ne remplace pas vos obligations; il facilite la présentation lors du contrôle.' },
   {
@@ -13,7 +13,7 @@ const faqs = [
   },
   { Q: 'Puis-je suggérer des fonctionnalités ?', A: `N'hésitez pas, tout le monde en profitera ! Vous pouvez me contacter via le formulaire de contact.` },
   { Q: `Est-ce que l'outil est adapté à tous les niveaux scolaires ?`, A: 'Oui, tous les programmes de la maternelle au lycée sont inclus (cycles/socle commun).' },
-  
+
   // Journal de bord
   // { Q: 'Qu’est-ce qu’une “entrée” de journal ?', A: 'Une activité datée. Description, photos, pièces jointes et liens au programme peuvent être ajoutés, mais sont facultatifs.' },
   // { Q: 'Dois-je lier chaque entrée à une compétence ?', A: `C'est recommandé mais facultatif; vous pouvez l'ajouter plus tard.` },
@@ -33,10 +33,10 @@ const faqs = [
   // { Q: 'Mes données sont-elles sécurisées ?', A: `Absolument ! Travaillant dans la cyber-sécurité, je prête une attention toute particulière à la sécurité informatique.` },
   // { Q: 'Puis-je supprimer mon compte et mes données ?', A: 'Oui, vous pouvez facilement supprimer votre compte tout ce qui y est lié.' },
 
-  {
-    Q: 'Je suis insatisfait, puis-je obtenir un remboursement ?',
-    A: `Oui. Vous disposez d’un droit de rétractation légal de 14 jours. En complément, je vous rembourserai sans limite si vous n'avez pas utilisé l'outil.`,
-  },
+  // {
+  //   Q: 'Je suis insatisfait, puis-je obtenir un remboursement ?',
+  //   A: `Oui. Vous disposez d’un droit de rétractation légal de 14 jours. En complément, je vous rembourserai sans limite si vous n'avez pas utilisé l'outil.`,
+  // },
   { Q: `Existe-t'il une app mobile ?`, A: 'Non, mais celle-ci est en cours de développement et vous serez tenu au courant de sa sortie.' },
   { Q: `Je suis une école avec des besoins particuliers, est-il possible de personnaliser l'outil ?`, A: `Tout à fait, une fois l'app mobile sortie. Contactez-moi pour me faire part de vos besoin !` },
 ]

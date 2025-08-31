@@ -23,7 +23,8 @@ const isScrolled = computed(() => y.value > 0)
 
       <nav class="hidden md:flex items-center gap-6 text-theme-surface-700 font-medium text-lg">
         <a href="#comment-ca-marche" class="hover:text-theme-surface-500 transition-colors duration-300">Comment ça marche</a>
-        <a href="#tarifs" class="hover:text-theme-surface-500 transition-colors duration-300">Tarifs</a>
+        <!-- <a href="#tarifs" class="hover:text-theme-surface-500 transition-colors duration-300">Tarifs</a> -->
+        <a href="#coming-next" class="hover:text-theme-surface-500 transition-colors duration-300">Fonctionnalités</a>
         <a href="#faq" class="hover:text-theme-surface-500 transition-colors duration-300">FAQ</a>
         <a href="#a-propos" class="hover:text-theme-surface-500 transition-colors duration-300">À propos</a>
       </nav>

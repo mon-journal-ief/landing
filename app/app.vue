@@ -14,6 +14,7 @@ useHead({
     <div class="flex flex-col gap-16 max-w-7xl w-full mx-auto">
       <CardGradient>
         <TheHeader />
+        <!-- <TheBanner /> -->
         <SectionHero />
       </CardGradient>
 
@@ -25,7 +26,8 @@ useHead({
 
       <CardGradient>
         <SectionHowItWorks />
-        <SectionPricing />
+        <!-- <SectionPricing /> -->
+        <SectionComingNext />
       </CardGradient>
 
       <CardGradient reverse>
