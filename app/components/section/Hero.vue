@@ -30,7 +30,7 @@
         </p>
 
         <ButtonCTA class="mt-4" />
-        <ButtonExport />
+        <!-- <ButtonExport /> -->
       </div>
     </div>
   </section>
