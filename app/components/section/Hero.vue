@@ -4,7 +4,7 @@
 
 <template>
   <section>
-    <div class="px-6 pt-8 pb-10 md:pt-28 md:pb-14 grid md:grid-cols-2 gap-12">
+    <div class="px-6 pt-8 pb-10 grid md:grid-cols-2 gap-12">
       <!-- Image - appears first on mobile, second on desktop -->
       <img
         src="/ief_chasti.png"
