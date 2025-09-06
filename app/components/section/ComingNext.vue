@@ -70,11 +70,9 @@ const featuresPlanned = [
       </div>
 
       <div class="mt-8 text-center text-sm">
-        <p class="text-theme-surface-600">
+        <p class="text-theme-surface-600 flex items-center gap-2 justify-center">
           Une suggestion ?
-          <a href="mailto:guillaume@mon-journal-ief.com" class="underline hover:no-underline text-theme-surface-700 font-medium">
-            Contactez-moi
-          </a>
+          <ContactForm />
         </p>
       </div>
     </div>

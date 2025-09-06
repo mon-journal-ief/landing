@@ -24,7 +24,7 @@
         </p>
 
         <div class="pt-4">
-          <ButtonContact />
+          <ContactForm button-display />
         </div>
       </div>
     </div>

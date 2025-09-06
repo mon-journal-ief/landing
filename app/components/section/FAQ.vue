@@ -55,10 +55,12 @@ function toggleFAQ(index: number) {
         <h2 class="text-3xl sm:text-4xl text-theme-surface-800">
           Questions fréquentes
         </h2>
-        <p class="mt-2 text-theme-surface-500">
-          Vous ne trouvez pas la réponse que vous cherchez ?
-          <a href="mailto:guillaume@mon-journal-ief.com" class="underline hover:no-underline text-theme-surface-700">Contactez-moi</a>
-        </p>
+        <div class="mt-2 flex items-center gap-2">
+          <p class="text-theme-surface-500">
+            Vous ne trouvez pas la réponse que vous cherchez ?
+          </p>
+          <ContactForm />
+        </div>
       </div>
 
       <div class="mt-8 w-full overflow-hidden rounded-2xl">
