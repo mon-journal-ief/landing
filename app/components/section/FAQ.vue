@@ -3,7 +3,7 @@ const openItems = ref(new Set<number>())
 
 const faqs = [
   // { Q: `Dois-je fournir un justificatif pour bénéficier de l'accès solidaire ?`, A: `Non. Nous fonctionnons sur l'honneur, sur simple déclaration.` },
-  { Q: 'Puis-je suivre plusieurs enfants ?', A: 'Autant d’enfants que vous le souhaitez, sans augmentation de prix!' },
+  { Q: 'Puis-je suivre plusieurs enfants ?', A: 'Autant d’enfants que vous le souhaitez, toujours gratuitement!' },
   // { Q: 'Est-ce conforme au cadre légal français ?', A: 'L’outil aide à documenter, mais ne remplace pas vos obligations; il facilite la présentation lors du contrôle.' },
   {
     Q: 'Garantissez-vous un contrôle réussi ?',
