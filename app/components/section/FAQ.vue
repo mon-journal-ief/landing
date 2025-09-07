@@ -12,7 +12,7 @@ const faqs = [
         J'ai construit l'outil sur la base de journaux d'activités qui ont effectivement passé le contrôle.`,
   },
   { Q: 'Puis-je suggérer des fonctionnalités ?', A: `N'hésitez pas, tout le monde en profitera ! Vous pouvez me contacter via le formulaire de contact.` },
-  { Q: `Est-ce que l'outil est adapté à tous les niveaux scolaires ?`, A: 'Oui, tous les programmes de la maternelle au lycée sont inclus (cycles/socle commun).' },
+  { Q: `Est-ce que l'outil est adapté à tous les niveaux scolaires ?`, A: 'Oui, tous les programmes de la maternelle (cycle 1) au collège (cycle 3) sont inclus. J\'intègrerai très prochainement le cycle 4.' },
 
   // Journal de bord
   // { Q: 'Qu’est-ce qu’une “entrée” de journal ?', A: 'Une activité datée. Description, photos, pièces jointes et liens au programme peuvent être ajoutés, mais sont facultatifs.' },
