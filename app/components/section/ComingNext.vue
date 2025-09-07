@@ -13,6 +13,7 @@ const featuresPlanned = [
   'Refonte esthétique des exports',
   `Options d'export (nouvelles sections, personnalisation)`,
   `Suggestions d'activités`,
+  'Passage en open-source',
   'Suivi de progression par compétence',
   'Connexion via Google, Facebook',
 ]
