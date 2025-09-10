@@ -39,6 +39,7 @@ const faqs = [
   // },
   { Q: `Existe-t'il une app mobile ?`, A: 'Non, mais celle-ci est en cours de développement et vous serez tenu au courant de sa sortie.' },
   { Q: `Je suis une école avec des besoins particuliers, est-il possible de personnaliser l'outil ?`, A: `Tout à fait, une fois l'app mobile sortie. Contactez-moi pour me faire part de vos besoin !` },
+  { Q: 'Je suis développeur, puis-je contribuer au projet ?', A: 'Oui, vous trouverez le lien du Github dans le footer.' },
 ]
 
 function toggleFAQ(index: number) {
