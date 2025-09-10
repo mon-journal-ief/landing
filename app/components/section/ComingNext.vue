@@ -2,18 +2,18 @@
 const featuresDone = [
   'Création et gestion du journal de bord',
   `Ajout d'entrées avec photos et descriptions`,
-  'Programmes officiels intégrés (maternelle au lycée)',
+  'Programmes officiels intégrés (maternelle à 6ème)',
   'Personnalisation des programmes',
   'Export PDF et Word',
   'Gestion multi-enfants',
 ]
 
 const featuresPlanned = [
+  'Programmes officiels Cycle 4 (5ème à 3ème)',
   'Application mobile',
   'Refonte esthétique des exports',
   `Options d'export (nouvelles sections, personnalisation)`,
   `Suggestions d'activités`,
-  'Passage en open-source',
   'Suivi de progression par compétence',
   'Connexion via Google, Facebook',
 ]
