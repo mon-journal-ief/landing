@@ -42,9 +42,10 @@ onMounted(() => {
         <SectionAbout />
       </CardContrast>
 
-      <!-- <CardContrast>
+      <CardGradient>
         <SectionPrivacy />
-      </CardContrast> -->
+      </CardGradient>
+
       <TheFooter />
     </div>
   </div>
