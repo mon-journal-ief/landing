@@ -23,8 +23,18 @@
           N'hésitez pas à me contacter si vous avez des questions ou des suggestions !
         </p>
 
-        <div class="pt-4">
+        <div class="pt-4 flex justify-between ">
           <ContactForm button-display />
+
+          <div class="flex gap-4 place-content-end">
+            <LinkGithub
+              class="self-center"
+              dark
+              url="https://github.com/whiterqbbit/"
+            />
+            <LinkWebsite />
+            <LinkLinkedin />
+          </div>
         </div>
       </div>
     </div>
